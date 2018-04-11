@@ -13,8 +13,17 @@ html {
   font-size: 16px;
 }
 
+body {
+  z-index:0;
+}
+
 header, main, footer {
   width:100%;
+}
+
+section {
+  margin:0px;
+  padding:0px;
 }
 
 /* for PC screens */
@@ -31,6 +40,7 @@ header, main, footer {
   height:64px;
   position:fixed;
   z-index: 10;
+  background-color:white;
 }
 
 .logo {
@@ -68,6 +78,77 @@ header, main, footer {
 
 .nav_tablet, .nav_phone {
   display:none;
+}
+
+/* call to action  */
+
+
+
+.call_to_action {
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color:#46477F;
+  padding-top:6rem;
+  padding-bottom:2rem;
+}
+
+.cta_image {
+  width:60%;
+  padding-left: 1.5rem;
+  padding-right:1.5rem;
+
+}
+
+.cta_image img {
+  width:100%;
+  margin:0px;
+  padding:0px;
+  display:flex;
+}
+
+.cta_content {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  border:1px solid black;
+
+  /*might have to change flex grow for 40%  */
+}
+
+.cta_text h1 {
+  /* color:#7F7F7F; */
+  color:#B2B4FF;
+  font-size:3rem;
+  font-family: 'Kadwa', serif;
+  font-weight: bold;
+}
+
+.cta_text p {
+  color:#CCCCCC;
+  font-size:2rem;
+  font-family: 'Amiri', serif;
+  margin-top:2rem;
+  margin-bottom:2rem;
+
+}
+
+.cta_button {
+  width:100%;
+  background-color: #7F7F7F;
+
+
+}
+
+.cta_button p {
+  font-family: 'Kadwa', serif;
+  font-size: 2rem;
+  color:#CCCCCC;
+  text-align:center;
+  padding:0.5rem;
 }
 
 }
