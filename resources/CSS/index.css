@@ -1,0 +1,23 @@
+/*
+Colors:
+dark-grey:#7F7F7F
+Light-grey: #CCCCCC
+White: #FFFFFF
+Light-blue: #B2B4FF
+Dark-blue: #46477F
+Highlite: #FFCCBF */
+
+/* for PC screens */
+@media only screen and (min-width:1025px) {
+
+}
+
+/* for tablet devices */
+@media only screen and (max-width:1024px) and (min-width:481px) {
+
+}
+
+/* for mobile phones */
+@media only screen and (max-width:480px) {
+
+}
