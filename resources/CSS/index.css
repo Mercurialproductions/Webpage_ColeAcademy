@@ -361,8 +361,8 @@ Highlite: #FFCCBF */
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left:4.5rem;
-  padding-right:4.5rem;
+  /* padding-left:4.5rem;
+  padding-right:4.5rem; */
 }
 
 .courses_row_one {
