@@ -3,9 +3,11 @@ Colors:
 dark-grey:#7F7F7F
 Light-grey: #CCCCCC
 White: #FFFFFF
-Light-blue: #B2B4FF
+Light-blue: #B2B4FF rgb 178 180 255
 Dark-blue: #46477F
 Highlite: #FFCCBF */
+
+/* pink complement #CC0063 rgb 204 0 99 */
 
 /* defaults */
 
@@ -75,6 +77,14 @@ section {
 .nav_links ul li {
   color:#7F7F7F;
   margin-right:1rem;
+}
+
+.nav_links ul li:hover {
+  color:#B2B4FF;
+}
+
+.nav_links ul li:active {
+  color:#CC0063;
 }
 
 .nav_tablet, .nav_phone {
@@ -149,6 +159,17 @@ section {
   padding:0.5rem;
 }
 
+
+.cta_button:hover {
+  background-color:#CC0063;
+}
+
+.cta_button:active {
+  background-color:#B2B4FF;
+}
+
+
+
 /* information section */
 
 .information {
@@ -182,6 +203,20 @@ section {
 
 .main_article_content {
   width:100%;
+}
+
+#hiring a {
+  color:#46477F;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#hiring a:hover {
+  color:rgb(204, 0, 99);
+}
+
+#hiring a:active {
+  color:rgb(178, 180, 255);
 }
 
 .article_side {
@@ -270,6 +305,14 @@ section {
   color:#7F7F7F;
 }
 
+.article_side_item:hover {
+  background-color:rgb(204, 0, 99);
+}
+
+.article_side_item:active {
+  background-color:rgb(178, 180, 255);
+}
+
 /*
 Colors:
 dark-grey:#7F7F7F
@@ -342,6 +385,28 @@ Highlite: #FFCCBF */
   /* border:1px solid black; */
   margin:2rem 2rem;
 }
+
+
+.course_content_container:hover {
+  background-color:rgb(204, 0, 99);
+}
+
+.course_content_container:active {
+  background-color:rgb(178, 180, 255);
+}
+
+
+
+/*
+Colors:
+dark-grey:#7F7F7F
+Light-grey: #CCCCCC
+White: #FFFFFF
+Light-blue: #B2B4FF rgb 178 180 255
+Dark-blue: #46477F
+Highlite: #FFCCBF */
+
+/* pink complement #CC0063 rgb 204 0 99 */
 
 .course_image_container {
   width:100%;
@@ -459,6 +524,7 @@ Highlite: #FFCCBF */
 
 }
 
+
 .side_video_img {
     width:35%;
     padding:1rem;
@@ -521,6 +587,14 @@ Highlite: #FFCCBF */
 
 #featured_text {
   color:#7F7F7F;
+}
+
+.video_side_item:hover {
+  background-color:rgb(204, 0, 99);
+}
+
+.video_side_item:active {
+  background-color:rgb(178, 180, 255);
 }
 
 /*
