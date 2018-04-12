@@ -13,6 +13,8 @@ Highlite: #FFCCBF */
 
 html {
   font-size: 16px;
+  margin:0px;
+  padding:0px;
 }
 
 body {
@@ -23,6 +25,8 @@ body {
   justify-content: center;
   align-items: center;
   width:100%;
+  margin: 0px;
+  padding:0px;
 }
 
 header, main, footer {
@@ -736,8 +740,7 @@ footer {
 /*  main header cta*/
 
 .call_to_action {
-
-  flex-flow: wrap column;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   width:100%;
@@ -767,6 +770,8 @@ footer {
 .cta_image {
   width:100%;
   margin-bottom:1rem;
+  padding-left: 0px;
+  padding-right:0px;
 
 }
 
@@ -791,6 +796,8 @@ footer {
 .courses_row_one, .courses_row_two {
   flex-direction: column;
   justify-content: space-around;
+  margin:0px;
+  padding:0px;
 }
 
 .course_item {
