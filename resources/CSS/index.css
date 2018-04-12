@@ -661,7 +661,7 @@ footer {
 
 
 /* for tablet devices */
-@media only screen and (max-width:1024px) and (min-width:481px) {
+@media only screen and (max-width:1024px) {
 
 .courses_container{
   flex-direction:row;
@@ -680,6 +680,14 @@ footer {
 }
 
 
+
+}
+
+@media only screen and (max-width:800px) {
+
+.text_1, .text_2 {
+  font-size:1rem;
+}
 
 }
 
@@ -708,7 +716,16 @@ footer {
   display:flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center
+  align-items: center:
+}
+
+.nav_phone ul li:hover {
+  background-color:rgb(204, 0, 99);
+
+}
+
+.nav_phone ul li:active {
+  background-color:rgb(178, 180, 255);
 }
 
 /*  main header cta*/
